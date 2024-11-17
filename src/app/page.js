@@ -25,7 +25,7 @@ export default function Home() {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
           }}>
-          <div className="absolute top-0 left-0 w-full h-full inset-0 z-0 bg-black opacity-90 md:bg-[#12121280] md:backdrop:blur-3xl ">
+          <div className="absolute top-0 left-0 w-full h-full inset-0 z-0 bg-black opacity-50 ">
           </div>
           <div className="max-w-7xl h-[50vh] flex justify-center items-center mt-10 gap-2 z-20 ">
             {
