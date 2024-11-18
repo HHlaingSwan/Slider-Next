@@ -21,7 +21,7 @@ export default function Home() {
         <div className="w-full h-full flex items-center justify-center transition-all duration-300 ease-in-out delay-100   relative p-4"
           style={{
             backgroundImage: `url(${sliding[expandItem].image})`,
-            backgroundSize: "cover",
+            backgroundSize: "fill",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
           }}>
@@ -41,7 +41,7 @@ export default function Home() {
                       alt="image"
                       width={3000}
                       height={1500}
-                      className="object-cover w-full h-full"
+                      className="object-cover  w-full h-full"
                     />
                   </div>
                 );
